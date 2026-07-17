@@ -5,7 +5,7 @@
 <h1 align="center">🔧 Repair & Return Dashboard</h1>
 
 <p align="center">
-An interactive Power BI portfolio project designed to monitor repair operations, analyze process performance, and support operational decision-making.
+An interactive Power BI dashboard built to monitor repair operations, analyze performance, and support operational decision-making.
 </p>
 
 <p align="center">
@@ -20,157 +20,132 @@ An interactive Power BI portfolio project designed to monitor repair operations,
 
 ---
 
-## 📌 Project Overview
+# 📌 Project Overview
 
-This portfolio project demonstrates the design and development of an interactive Power BI dashboard for monitoring repair and return operations.
+This Power BI dashboard was designed to monitor repair and return operations through interactive reporting and KPI tracking.
 
-The dashboard provides operational visibility through KPI monitoring, cumulative progress tracking, cycle time analysis, monthly performance reporting, aging analysis, and delayed-item tracking.
+It enables operations teams to monitor performance, compare forecast versus actual progress, analyze repair cycle times, identify aging items, and support faster operational decision-making.
 
-All visuals and values shown in this repository use **fictional sample data** created specifically for portfolio demonstration purposes.
-
----
-
-## 🎯 Business Objectives
-
-- Monitor repair and return operations end to end.
-- Track total, completed, and open work items.
-- Compare planned versus actual cumulative progress.
-- Analyze monthly closure performance.
-- Measure cycle time across repair process stages.
-- Monitor aging and delayed items.
-- Identify operational bottlenecks.
-- Support data-driven operational decisions.
+All values shown in this repository are fictional and created exclusively for portfolio purposes.
 
 ---
 
-## ✨ Dashboard Features
+# 🎯 Business Objectives
 
-- Executive KPI Cards
-- Dynamic Filters and Slicers
-- Interactive Navigation
-- Cumulative S-Curve Analysis
-- Monthly Closure Performance
-- Repair Cycle Time Analysis
-- Aging Analysis
-- Delayed-Item Monitoring
-- Operational Trend Analysis
-- Executive-Level Reporting
+- Monitor repair and return operations.
+- Track operational KPIs.
+- Compare planned versus actual progress.
+- Analyze repair cycle time.
+- Identify delayed and aging items.
+- Support operational decision-making.
 
 ---
 
-## 🖼 Portfolio Overview
+# ✨ Dashboard Highlights
 
-<p align="center">
-  <img src="portfolio-overview.png" width="100%" alt="Repair and Return Portfolio Overview">
-</p>
-
----
-
-## 📊 Dashboard Pages Overview
-
-<p align="center">
-  <img src="dashboard-pages-overview.png" width="100%" alt="Repair and Return Dashboard Pages Overview">
-</p>
-
-The dashboard structure includes:
-
-- Executive Overview
+- Executive KPI Dashboard
+- Interactive Slicers
 - Cumulative S-Curve
-- Monthly Closure Performance
+- Monthly Performance Analysis
 - Cycle Time Analysis
 - Aging Analysis
-- Delayed Items
-- Operational Monitoring
-- Data Dictionary
+- Operational KPI Monitoring
+- Interactive Navigation
 
 ---
 
-## 📈 Cumulative S-Curve
+# 🖼 Dashboard Preview
 
-The Cumulative S-Curve compares planned progress against actual completed work over time.
+The following image summarizes the dashboard pages, KPIs, analytical views, and reporting capabilities included in this project.
 
 <p align="center">
-  <img src="cumulative-s-curve.png" width="100%" alt="Cumulative Planned versus Actual S-Curve">
+<img src="portfolio-overview.png" width="100%">
 </p>
 
 ---
 
-## 📊 Key Performance Indicators
+# 📈 Cumulative S-Curve
+
+The dashboard includes a cumulative S-Curve used to compare forecasted progress against actual completed work.
+
+This visualization helps monitor operational performance over time and quickly identify gaps between planned and actual execution.
+
+<p align="center">
+<img src="cumulative-s-curve.png" width="100%">
+</p>
+
+---
+
+# 📊 Key Performance Indicators
 
 - Total Items
 - Completed Items
 - Open Items
 - Completion Rate
 - Average Cycle Time
-- Forecast Total
-- Actual to Date
-- Forecast versus Actual Gap
+- Forecast vs Actual
 - Monthly Completion
 - Aging Distribution
 
 ---
 
-## 💡 Business Value
+# 💼 Business Value
 
-This dashboard supports operations teams by providing:
+The dashboard enables decision-makers to:
 
-- Improved visibility into repair workload.
-- Faster identification of delayed items.
-- Clear comparison between forecast and actual progress.
-- Better understanding of process cycle time.
-- Improved monitoring of monthly performance.
-- More informed operational decision-making.
+- Monitor operational performance in real time.
+- Detect delays earlier.
+- Improve visibility across repair activities.
+- Analyze process efficiency.
+- Support continuous operational improvement.
 
 ---
 
-## 🛠 Tech Stack
+# 🛠 Tech Stack
 
 | Technology | Purpose |
-|---|---|
-| Microsoft Power BI | Dashboard development |
-| Power Query | Data cleaning and transformation |
-| DAX | KPI and business calculations |
-| Microsoft Excel | Sample data source |
-| Data Modeling | Relationships and reporting structure |
-| Data Visualization | Executive and operational reporting |
+|------------|---------|
+| Microsoft Power BI | Dashboard Development |
+| Power Query | Data Transformation |
+| DAX | Business Calculations |
+| Microsoft Excel | Sample Dataset |
+| Data Modeling | Relationships |
+| Data Visualization | Executive Reporting |
 
 ---
 
-## 🧠 Skills Demonstrated
+# 🧠 Skills Demonstrated
 
 - Data Cleaning
 - Data Transformation
 - Data Modeling
-- DAX Measure Development
-- KPI Design
+- DAX
+- KPI Development
 - Dashboard Design
-- Power BI Navigation
-- Time-Based Analysis
-- Operational Analytics
 - Business Intelligence
 - Data Visualization
+- Operational Analytics
 - Executive Reporting
-- Data Storytelling
 
 ---
 
-## 🔒 Data Privacy
+# 🔒 Data Privacy
 
-All data shown in the dashboard visuals is fictional and was created solely for demonstration purposes.
+This repository is intended solely for portfolio demonstration.
 
-The repository does not include:
+To protect confidential business information:
 
-- Original company data
-- Supplier information
-- Employee information
-- Customer information
-- Proprietary operational records
-- Confidential source files
-- The original Power BI `.pbix` file
+- No original company data is included.
+- No supplier information is included.
+- No employee information is included.
+- No confidential operational records are included.
+- The original Power BI (.pbix) file is not published.
+
+All dashboard values shown are fictional and created exclusively for demonstration purposes.
 
 ---
 
-## 📂 Repository Structure
+# 📂 Repository Structure
 
 ```text
 Repair-and-Return-Dashboard
@@ -179,27 +154,25 @@ Repair-and-Return-Dashboard
 ├── LICENSE
 ├── repository-cover.png
 ├── portfolio-overview.png
-├── dashboard-pages-overview.png
 └── cumulative-s-curve.png
 ```
 
 ---
 
-## 🚀 Future Improvements
+# 🚀 Future Improvements
 
-- Build a downloadable PBIX version using synthetic data.
-- Add interactive drill-through pages.
-- Create a mobile dashboard layout.
-- Add Row-Level Security.
-- Configure automated refresh.
-- Deploy the dashboard to Power BI Service.
-- Add predictive aging and completion forecasting.
+- Mobile Layout
+- Drill-through Pages
+- Row-Level Security (RLS)
+- Automated Refresh
+- Power BI Service Deployment
+- Predictive Analytics
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
-### Hussieni Eltawil
+## Hussieni Eltawil
 
 **Data Analyst | Power BI Developer | Business Intelligence**
 
@@ -212,4 +185,4 @@ Repair-and-Return-Dashboard
 
 ## ⭐ Support
 
-If you found this project useful, consider giving the repository a ⭐.
+If you found this project useful, consider giving it a ⭐.
