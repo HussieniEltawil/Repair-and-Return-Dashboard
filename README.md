@@ -479,10 +479,21 @@ The dashboard supports operational decision-making by:
 
 ---
 
+## Main Project Files
+
+| File | Location |
+|---|---|
+| Power BI report | `Power BI/Repair-and-Return-Operations-Dashboard.pbix` |
+| Anonymized source data | `Data/Repair-Return-Anonymized.xlsx` |
+| Dashboard documentation | `README.md` |
+| Project license | `LICENSE` |
+
+---
+
 ## Repository Structure
 
 ```text
-Repair-Return-Operations-Dashboard/
+PowerBi-Repair-Return-Operations-Dashboard/
 │
 ├── README.md
 ├── LICENSE
@@ -491,7 +502,7 @@ Repair-Return-Operations-Dashboard/
 ├── CONTRIBUTING.md
 │
 ├── Power BI/
-│   └── Repair-and-Return-Dashboard.pbix
+│   └── Repair-and-Return-Operations-Dashboard.pbix
 │
 ├── Data/
 │   └── Repair-Return-Anonymized.xlsx
@@ -534,17 +545,16 @@ Repair-Return-Operations-Dashboard/
 ## How to Use
 
 1. Download or clone the repository.
-2. Open the `.pbix` file using Microsoft Power BI Desktop.
-3. Place the anonymized Excel file in the expected data folder.
+2. Open `Power BI/Repair-and-Return-Operations-Dashboard.pbix` using Microsoft Power BI Desktop.
+3. Keep `Data/Repair-Return-Anonymized.xlsx` inside the repository's `Data` folder.
 4. Update the data source path if required.
 5. Refresh the model.
 6. Use the project, supplier, system, and operational filters to explore the report.
 
 ```bash
-git clone https://github.com/YOUR-GITHUB-USERNAME/YOUR-REPOSITORY-NAME.git
+git clone https://github.com/HussieniEltawil/PowerBi-Repair-Return-Operations-Dashboard.git
 ```
 
-Replace the placeholders above with the final GitHub username and repository name.
 
 ---
 
